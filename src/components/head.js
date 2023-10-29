@@ -43,7 +43,7 @@ const Head = (props) => {
       {showMenu ?
         <section
           id="mobile-menu"
-          className="absolute top-0 bg-black w-full text-white text-5xl flex flex-col justify-content-center origin-top animate-open-menu"
+          className="absolute top-0 bg-black w-full text-white text-2xl flex flex-col justify-content-center origin-top animate-open-menu"
         >
           <button className="text-8xl self-end px-6" 
           onClick={()=>handleOpenMenu()}>
