@@ -63,7 +63,7 @@ const Body = (props) => {
               {images[0].text}
             </span>{" "}
           </h2>
-          <p className="max-w-md text-2xl mt-10 text-center sm:text-left text-slate-700 dark:text-slate-400">
+          <p className="max-w-md  mt-10 text-center text-xl sm:text-xl sm:text-left text-slate-700 dark:text-slate-400">
             If you are an electric car owner ForEV helps you helps plan your
             trips and
             <span className="text-cyan-500 dark:-text-cyan-300">
@@ -99,7 +99,7 @@ const Body = (props) => {
               TRIP PLANNER.
             </h3>
 
-            <p className="sm:hidden text-2xl text-center mt-2 text-slate-900 dark:text-white">
+            <p className="sm:hidden text-xl text-center mt-2 text-slate-900 dark:text-white">
               Plan your trip with ease using our app. Our app provides a route
               planner that shows you the charging stations and restaurants along
               the way.
@@ -112,7 +112,7 @@ const Body = (props) => {
               CHARGIN STATION LOCATOR
             </h3>
 
-            <p className="sm:hidden text-2xl text-center mt-2 text-slate-900 dark:text-white">
+            <p className="sm:hidden text-xl text-center mt-2 text-slate-900 dark:text-white">
               Discover the charging stations nearby on ForEV app.
             </p>
           </li>
@@ -122,7 +122,7 @@ const Body = (props) => {
             <h3 className="text-2xl text-center text-slate-900 dark:text-white">
               RESTAURANT FINDER.
             </h3>
-            <p className="sm:hidden text-2xl text-center mt-2 text-slate-900 dark:text-white">
+            <p className="sm:hidden text-xl text-center mt-2 text-slate-900 dark:text-white">
               Our app allows you to search for restaurants near charging
               stations. You can filter restaurants by cuisine type, rating, and
               distance from the charging station.
@@ -142,7 +142,7 @@ const Body = (props) => {
         <figure className="my-12">
           <blockquote className="bg-[#1c75bc] dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
             <p
-              className="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 
+              className="text-2xl sm:text-2xl text-left mt-2 text-white dark:text-slate-400 
             before:content-['\201C'] before:font-serif before:absolute before:top-0 
             before:left-0 before:text-9xl before:text-white before:opacity-25 
             before:transform before:translate-x-2 before:translate-y-2
@@ -199,7 +199,7 @@ const Body = (props) => {
         <h2 className="text-3xl  text-center sm:text-3xl mb-6 text-slate-900 dark:text-white  ">
       Our Partners
         </h2>
-        <h4 className="text-2xl text-center sm:text-2xl mb-6 text-slate-900 dark:text-white  ">
+        <h4 className="text-xl text-center sm:text-xl mb-6 text-slate-900 dark:text-white  ">
           We work with companies that are dedicated to making electric vehicle
           travel easier and more enjoyable. Our partners include manufacturers
           of electric vehicles, charging station providers, and restaurants.
@@ -242,14 +242,14 @@ const Body = (props) => {
         id="contactus"
         className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height"
       >
-        <h2 className="text-3xl font-bold text-center sm:text-3xl mb-6 text-slate-900 dark:text-white">
+        <h2 className="text-2xl font-bold text-center sm:text-2xl mb-6 text-slate-900 dark:text-white">
           Contact Us
         </h2>
         <form
           action=""
-          className="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col item-left gap-4"
+          className="max-w-4xl mx-auto text-2xl sm:text-2xl flex flex-col item-left gap-4"
         >
-          <label htmlFor="">subject:</label>
+          <label htmlFor="subject">subject:</label>
           <input
             type="text"
             id="subject"
@@ -258,7 +258,7 @@ const Body = (props) => {
             minLength={3}
             maxLength={60}
             placeholder="YourSubject"
-            className="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"
+            className="w-full text-black text-xl sm:text-xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"
           />
           <label htmlFor="message">Message:</label>
           <textarea
@@ -268,9 +268,9 @@ const Body = (props) => {
             rows="10"
             placeholder="Your Message"
             required
-            className="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"
+            className="w-full text-black text-xl sm:text-xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"
           ></textarea>
-          <button className="bg-[#1c75bc] hover:bg-cyan-600 active:bg-cyan-600 text-white p-3 w-48 rounded-xl border-xl border border-solid border-slate-900 dark:border-none">
+          <button className="bg-[#1c75bc] hover:bg-cyan-600 active:bg-cyan-600 text-white p-2 w-28 rounded-xl border-xl border border-solid border-slate-900 dark:border-none">
             Submit
           </button>
         </form>
