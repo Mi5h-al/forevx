@@ -12,14 +12,14 @@ const Footer = (props) => {
       <footer id="footer" className="bg-[#1c75bc] text-white text-xl text-left">
         <section className="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
           <address>
-            <h2>ForEV Technology Inc.</h2>8888 Mountain view
+            <h2>ForEv India Pvt.Ltd</h2>Trivandrum
             <br />
-            California,United States.
+            Kerala,India.
             <br />
-            Email: <a href="mailto:inquiries@forev.com"></a>
+            Email: <a href="info@forev.in">info@forev.in</a>
             <br />
             Phone:{" "}
-            <a href="tel:+15-1234-5678-9090-8888">(+15) 1234-5678-9012-8888</a>
+            <a href="tel:+15-1234-5678-9090-8888">(+91) 7994836852</a>
           </address>
           <nav className="hidden md:flex flex-col gap-2" aria-label="footer">
             <a href="#technology" className="hover:opacity-90">Technology </a>
