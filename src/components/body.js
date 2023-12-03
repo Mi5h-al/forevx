@@ -64,13 +64,12 @@ const Body = (props) => {
             </span>{" "}
           </h2>
           <p className="max-w-md  mt-10 text-center text-xl sm:text-xl sm:text-left text-slate-700 dark:text-slate-400">
-            If you are an electric car owner ForEV helps you helps plan your
-            trips and
+            Ready for a whole new way to travel with your electric car?      
             <span className="text-cyan-500 dark:-text-cyan-300">
               {" "}
-              <b>find restaurants near charging stations</b>
+              <b>We help you plan entire journey, find charging station effortlessly and ensure you never get bored while charging.</b>
             </span>{" "}
-            so you can have a break while your vehicle is being charged!
+            Its electric travel made simple and fun.😊
           </p>
           <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
             ForEV{" "}
